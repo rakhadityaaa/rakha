@@ -27,6 +27,18 @@
         p { color: #cbd5e1; margin-bottom: 15px; }
         .badge { display: inline-block; background: #0369a1; color: #e0f2fe; padding: 5px 12px; border-radius: 15px; font-size: 0.85rem; margin: 5px 3px; font-weight: bold; }
         
+        /* Layout untuk Pengalaman Berfoto */
+        .exp-item { margin-bottom: 25px; padding-bottom: 15px; }
+        .exp-img {
+            width: 100%;
+            max-height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #334155;
+        }
+
         .contact-container { text-align: center; margin-top: 30px; }
         .contact-btn { display: inline-block; background: #38bdf8; color: #0f172a; padding: 12px 25px; border-radius: 6px; text-decoration: none; font-weight: bold; transition: 0.3s; }
         .contact-btn:hover { background: #0ea5e9; }
@@ -35,6 +47,7 @@
 <body>
 
     <div class="container">
+        <!-- Foto Profil Utama -->
         <img src="DSC_0658 copy.jpg" alt="Rakha Aditya" class="profile-img">
 
         <h1>Rakha Aditya</h1>
@@ -42,7 +55,7 @@
         
         <p>A top-performing TKJ (Network Engineering) graduate and former Student Council President. Skilled in IT support and leadership, blending technical expertise with strong team-building abilities.</p>
         
-        <h2>Certifications & Skills</h2>
+        <h2>Skills</h2>
         <div>
             <span class="badge">Network Configuration</span>
             <span class="badge">Network Troubleshooting</span>
@@ -51,18 +64,45 @@
         </div>
 
         <h2>Experience</h2>
-        <p><strong>IT Support & Network Intern</strong> - PT. Solusi Intek Indonesia<br>
-        Handling network troubleshooting, software/hardware installations, and service network maintenance.</p>
         
-        <p><strong>Student Council President (Ketua OSIS)</strong> - SMK Tunas Jakasampurna<br>
-        Led student organizations, managed school events, and developed strong leadership skills.</p>
+        <!-- 1. Pengalaman IT Support -->
+        <div class="exp-item">
+            <p><strong>IT Support & Network Intern</strong> - PT. Solusi Intek Indonesia<br>
+            Handling network troubleshooting, software installations, and service provider network maintenance.</p>
+            <!-- Ganti nama-file-it.jpg dengan file foto magang Anda -->
+            <img src="nama-file-it.jpg" alt="IT Support Intern" class="exp-img">
+        </div>
+        
+        <!-- 2. Pengalaman Ketua OSIS -->
+        <div class="exp-item">
+            <p><strong>Student Council President (Ketua OSIS)</strong> - SMK Tunas Jakasampurna<br>
+            Led student organizations, managed school events, and developed strong leadership skills.</p>
+            <!-- Ganti nama-file-osis.jpg dengan file foto OSIS Anda -->
+            <img src="IMG-20260530-WA0082(1).jpg" alt="Ketua OSIS" class="exp-img">
+        </div>
+
+        <!-- 3. Pengalaman Pradana Pramuka -->
+        <div class="exp-item">
+            <p><strong>Pradana Pramuka (Scout Leader)</strong> - SMK Tunas Jakasampurna<br>
+            Responsible for leading the Scout troop, organizing scouting activities, and fostering discipline among members.</p>
+            <!-- Ganti nama-file-pramuka.jpg dengan file foto Pramuka Anda -->
+            <img src="nama-file-pramuka.jpg" alt="Pradana Pramuka" class="exp-img">
+        </div>
+
+        <!-- 4. Pengalaman DKR -->
+        <div class="exp-item">
+            <p><strong>Dewan Kerja Ranting (DKR) Member</strong><br>
+            Participated in managing and coordinating scouting events and programs at the sub-district level.</p>
+            <!-- Ganti nama-file-dkr.jpg dengan file foto DKR Anda -->
+            <img src="nama-file-dkr.jpg" alt="Dewan Kerja Ranting" class="exp-img">
+        </div>
 
         <h2>Education</h2>
         <p><strong>SMK Tunas Jakasampurna</strong><br>
         Teknik Komputer Jaringan (Best Graduate)</p>
 
         <div class="contact-container">
-            <a href="mailto:email-anda@gmail.com" class="contact-btn">Let's Connect</a>
+            <a href="mail to: rakhadityaaa@gmail.com" class="contact-btn">Let's Connect</a>
         </div>
     </div>
 
